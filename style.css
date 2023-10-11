@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav{
+    background: linear-gradient(120deg,white 50%, red 50%);
+    height: 100px;
+    width: 100%;
+}
+
+.nav ul{
+    margin-top: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+.nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.nav ul li a{
+    color: black;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav ul li a:hover{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+/* Style the headings for the sections */
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+
+/* about us css */
+/* Reset some default styles for the body and header */
+body, header {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the container for each section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style individual sections */
+section {
+    margin: 20px 0;
+}
+
+/* Style headings */
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    
+}
+
+/* Style the list of guiding principles */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Style list items within the guiding principles */
+li {
+    margin-bottom: 10px;
+}
+
+
+/* carousel css */
+/* Reset some default styles for the body and carousel container */
+body, .carousel-container {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the carousel container */
+.carousel-container {
+    width: 300px; 
+    overflow: hidden; 
+    position: relative; 
+    margin: 0 auto; 
+}
+
+/* Style the individual slides */
+.carousel-slide {
+    width: 100%;
+    
+}
+
+/* Style the images inside the slides */
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Apply a fade effect to the slides */
+.carousel-slide.fade {
+    animation: fade 3s linear infinite; 
+}
+
+.carousel-item{
+ margin-top: 0px;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0; /* Hide the slide at the start and end */
+    }
+    50% {
+        opacity: 1; /* Show the slide in the middle of the animation */
+    }
+}
+
+
+
+/* cloud software css */
+.defult-title {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 35px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table {
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    border-collapse: collapse;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+table {
+    display: table;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+body {
+    color: #000;
+    background: #fff;
+    font-family: "Roboto Condensed",Arial,Helvetica,sans-serif;
+    line-height: 22px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+body{
+    text-align: left;
+}
+
+
+.table-striped{
+    background-color: white;
+}
+
+/* footer css*/
+
+.footer {
+    background-color: #061331e7;
+    margin-top: auto;
+    padding: 100px 0; /* Add some spacing around the content */
+    text-align: center; /* Center-align the content */
+}
+
+/* Style for the footer content */
+.footer-content {
+    width: 500px; 
+    margin-left: 22rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border: solid 2px white;
+    padding: 20px 15px 15px 15px;
+}
+
+
